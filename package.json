@@ -1,0 +1,25 @@
+{
+  "name": "node-db4-project",
+  "version": "1.0.0",
+  "description": "Project for Node DB 4 Module",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Ohman/node-db4-project.git"
+  },
+  "author": "nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-Ohman/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/Nick-Ohman/node-db4-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.22.1",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  }
+}
